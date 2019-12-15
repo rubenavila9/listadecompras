@@ -10,6 +10,8 @@ public class ShoppingElementHelper extends SQLiteOpenHelper {
     // if you change the database schema, you must increment the database version.
     public static final int DATABASE_VERSION = 1;
     public static final String DATABASE_NAME = "ShoppingElements.db";
+    public static final String TABLE_NAME = "entry";
+    public static final String COLUMN_NAME_TITLE = "title";
 
     public ShoppingElementHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
